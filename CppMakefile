@@ -1,0 +1,7 @@
+all:
+	g++ main.cpp -o main
+	@echo "main.c Results"
+	@echo "#####################"
+	@./main
+	@printf "\n"
+	@echo "#####################"
